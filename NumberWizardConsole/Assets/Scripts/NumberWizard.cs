@@ -21,19 +21,17 @@ namespace NumberWizard
         // Update is called once per frame
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.UpArrow))
-            {
-                Debug.Log("Up Arrow key was pressed");
-            }
-
-            if (Input.GetKeyDown(KeyCode.DownArrow))
-            {
-                Debug.Log("Down Arrow key was pressed");
-            }
-
             if (Input.GetKeyDown(KeyCode.Return))
             {
                 Debug.Log("Enter key was pressed");
+            }
+            else if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                Debug.Log("Up Arrow key was pressed");
+            }
+            else if (Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                Debug.Log("Down Arrow key was pressed");
             }
         }
     }
