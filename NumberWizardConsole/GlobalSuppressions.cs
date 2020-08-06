@@ -5,5 +5,5 @@
 
 using System.Diagnostics.CodeAnalysis;
 
-[assembly: SuppressMessage("Redundancy", "RCS1213:Remove unused member declaration.", Justification = "<Pending>", Scope = "member", Target = "~M:NumberWizard.Start")]
-[assembly: SuppressMessage("Redundancy", "RCS1213:Remove unused member declaration.", Justification = "<Pending>", Scope = "member", Target = "~M:NumberWizard.Update")]
+[assembly: SuppressMessage("Redundancy", "RCS1213:Remove unused member declaration.", Justification = "<Pending>", Scope = "member", Target = "~M:NumberWizard.NumberWizard.Start")]
+[assembly: SuppressMessage("Redundancy", "RCS1213:Remove unused member declaration.", Justification = "<Pending>", Scope = "member", Target = "~M:NumberWizard.NumberWizard.Update")]
